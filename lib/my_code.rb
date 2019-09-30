@@ -21,5 +21,5 @@ end
 
 def reduce_to_all_true(source_array)
   source_array.reduce {|n| !!n}
-  all?(source_array)
+  source_array.all?
 end
