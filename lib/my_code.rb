@@ -26,4 +26,5 @@ end
 
 def reduce_to_any_true(source_array)
   source_array.reduce {|n| !!n}
+  source_array.any?
 end
